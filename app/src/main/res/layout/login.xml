@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:paddingTop="30dp"
+        android:paddingRight="25dp">
+
+        <TextView
+            android:id="@+id/createAn"
+            android:layout_width="255dp"
+            android:layout_height="72dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="67dp"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center_vertical"
+            android:text="@string/createAn"
+            android:textAppearance="@style/createAn"
+            app:lineHeight="36sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/enterUsers"
+        android:layout_width="142dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="62dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="top"
+        android:text="@string/enterUsers"
+        android:textAppearance="@style/enterUsers" />
+
+    <EditText
+        android:id="@+id/enterUsersTxt"
+        android:layout_width="288dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/white_rectangle"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_vertical"
+        android:text="@string/enterUsersTxt"
+        android:textAppearance="@style/enterUsersTxt" />
+
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="48dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="top"
+        android:text="@string/email"
+        android:textAppearance="@style/email" />
+
+
+    <EditText
+        android:id="@+id/emailTxt"
+        android:layout_width="288dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/white_rectangle"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_vertical"
+        android:text="@string/emailTxt"
+        android:textAppearance="@style/emailTxt"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/enterPassword"
+        android:layout_width="142dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="top"
+        android:text="@string/password"
+        android:textAppearance="@style/enterPassword" />
+
+
+    <EditText
+        android:id="@+id/enterPasswordTxt"
+        android:layout_width="288dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/white_rectangle"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_vertical"
+        android:text="@string/enterPasswordTxt"
+        android:textAppearance="@style/enterPasswordTxt"
+        android:textColor="#000000" />
+
+
+    <TextView
+        android:id="@+id/Login"
+        android:layout_width="160dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="104dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:text="@string/Login"
+        android:textAppearance="@style/Login"
+        android:gravity="top"
+        android:fontFamily="@font/poppins_bold"
+        />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="132dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="226dp"
+        android:layout_marginTop="173dp"
+        android:background="@drawable/black_rectangle"
+        android:elevation="1dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="@string/nextBtn"
+        android:textAppearance="@style/nextBtn"
+        app:backgroundTint="#334257" />
+</LinearLayout>
